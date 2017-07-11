@@ -1,0 +1,24 @@
+body {
+  background-color: black !important;
+}
+
+#centre-piece {
+  text-align: center;
+  max-height: 745px;
+}
+
+#centre-piece img {
+  top: -20px;
+  height: 100%
+}
+
+#enter-button:hover {
+  cursor: pointer;
+  text-decoration: none;
+  text-decoration: line-through;
+  mix-blend-mode: difference;
+}
+
+#enter-button:active {
+  mix-blend-mode: exclusion;
+}

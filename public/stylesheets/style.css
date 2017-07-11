@@ -1,0 +1,22 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.overlay-text {
+  color: white;
+  position: absolute;
+  font-size: 5em;
+  top: 4em;
+  left: 0;
+  right: 2.4em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  text-align: center;
+  font-family: 'Archivo Black', sans-serif;
+}

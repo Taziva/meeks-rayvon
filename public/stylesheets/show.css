@@ -1,0 +1,21 @@
+.gallery-image {
+  max-height: 300px;
+  max-width: 340px;
+}
+.row div {
+  width: 340px;
+  height: 300px;
+}
+.col-lg-3 {
+  margin: 1.5em;
+}
+.row a {
+  width: 340px;
+  height: 300px;
+}
+
+.img-thumbnail {
+  display: block;
+  margin: 0 auto;
+  border: none;
+}

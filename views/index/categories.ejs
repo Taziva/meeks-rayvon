@@ -1,119 +1,95 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="stylesheets/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
-    <link rel="stylesheet" href="stylesheets/categories.css">
+  <title></title>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+  <link rel="stylesheet" href="stylesheets/categories.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
   </head>
   <body>
-    <div id="category-page">
-      <div id="mycarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#mycarousel" data-slide-to="1"></li>
-        <li data-target="#mycarousel" data-slide-to="2"></li>
-        <li data-target="#mycarousel" data-slide-to="3"></li>
-        <li data-target="#mycarousel" data-slide-to="4"></li>
-      </ol>
-
-    <!-- Wrapper for slides -->
-      <div class="carousel-inner" role="listbox" autofocus>
-        <a href="/categories/branded" class="item">
-          <img src="images/branded/branded-hero.jpg" data-color="lightblue" alt="First Image">
-          <div class="carousel-caption">
-            <h3>BRANDED</h3>
-          </div>
-        </a>
-        <a href="/categories/diary" class="item">
-          <img src="images/diary/diary.jpg" data-color="firebrick" alt="Second Image">
-          <div class="carousel-caption">
-            <h3>DIARY</h3>
-          </div>
-        </a>
-        <a href="/categories/editorial" class="item">
-          <img src="images/editorial/orange-supreme.jpg" data-color="violet" alt="Third Image">
-          <div class="carousel-caption">
-            <h3>EDITORIAL</h3>
-          </div>
-        </a>
-        <a href="/categories/events" class="item">
-          <img src="images/events/events.jpg" data-color="lightgreen" alt="Fourth Image">
-          <div class="carousel-caption">
-            <h3>EVENTS</h3>
-          </div>
-        </a>
-        <a href="/categories/food" class="item">
-          <img src="images/food/food.jpg" data-color="lightgreen" alt="Fourth Image">
-          <div class="carousel-caption">
-            <h3>FOOD</h3>
-          </div>
-        </a>
-        <a href="/categories/travel" class="item">
-          <img src="images/travel/travel.jpg" data-color="lightgreen" alt="Fourth Image">
-          <div class="carousel-caption">
-            <h3>TRAVEL</h3>
-          </div>
-        </a>
-        <a href="/about" class="item">
-          <img src="images/about/about.jpg" data-color="lightgreen" alt="Fourth Image">
-          <div class="carousel-caption">
-            <h3>ABOUT</h3>
-          </div>
-        </a>
+    <% include ../partials/header %>
+    <div id="category-page" class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 title">
+          <h1>Meeks-Rayvon</h1>
+        </div>
       </div>
-
-    <!-- Controls -->
-      <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="your-class">
+            <div>
+              <div class="mid-holder">
+                <a href="/categories/branded" class="item">
+                  <img class='hero' src="images/branded/branded-hero.jpg" alt="">
+                </a>
+              </div>
+            </div>
+            <div>
+              <div class="mid-holder">
+                <a href="/categories/diary" class="item">
+                  <img class='hero' src="images/diary/diary.jpg">
+                </a>
+              </div>
+            </div>
+            <div>
+              <div class="mid-holder">
+                <a href="/categories/editorial" class="item">
+                  <img class='hero' src="images/editorial/editorial-hero.jpg">
+                </a>
+              </div>
+            </div>
+            <div>
+              <div class="mid-holder">
+                <a href="/categories/rvrnts" class="item">
+                  <img class='hero' src="images/events/events.jpg">
+                </a>
+              </div>
+            </div>
+            <div>
+              <div class="mid-holder">
+                <a href="/categories/food" class="item">
+                  <img class='hero' src="images/food/food.jpg">
+                </a>
+              </div>
+            </div>
+            <div>
+              <div class="mid-holder">
+                <a href="/categories/travel" class="item">
+                  <img class='hero' src="images/travel/travel.jpg">
+                </a>
+              </div>
+            </div>
+            <div>
+              <div class="mid-holder">
+                <a href="/about" class="item">
+                  <img class='hero' src="images/about/about.jpg" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
+
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
   <script type="text/javascript">
-    var $item = $('.carousel .item');
-    var $wHeight = $(window).height();
-    $item.eq(0).addClass('active');
-    $item.height($wHeight);
-    $item.addClass('full-screen');
-
-    $('.carousel img').each(function() {
-      var $src = $(this).attr('src');
-      var $color = $(this).attr('data-color');
-      $(this).parent().css({
-        'background-image' : 'url(' + $src + ')',
-        'background-color' : $color
+    $(document).ready(function(){
+      $('.your-class').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        centerMode: true,
+        centerPadding: '200px',
+        focusOnSelect: true
       });
-      $(this).remove();
     });
+  </script>
 
-    $(window).on('resize', function (){
-      $wHeight = $(window).height();
-      $item.height($wHeight);
-    });
-
-    $('.carousel').carousel({
-      interval: 6000,
-      pause: "false"
-    });
-    </script>
-    <script type="text/javascript">
-     $.ajax({
-      url: "..",
-      success: function(data) {
-        files = $(data).find("a:contains(.html)")
-        console.log(files)
-      }
-    })
-    </script>
   </body>
 </html>

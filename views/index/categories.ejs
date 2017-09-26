@@ -1,95 +1,55 @@
 <html>
-  <head>
-  <title></title>
-  <meta charset="utf-8">
-  <title></title>
+<head>
   <link rel="stylesheet" href="stylesheets/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" />
   <link rel="stylesheet" href="stylesheets/categories.css">
-  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-  </head>
-  <body>
-    <% include ../partials/header %>
-    <div id="category-page" class="container-fluid">
-      <div class="row">
-        <div class="col-md-12 title">
-          <h1>Meeks-Rayvon</h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="your-class">
-            <div>
-              <div class="mid-holder">
-                <a href="/categories/branded" class="item">
-                  <img class='hero' src="images/branded/branded-hero.jpg" alt="">
-                </a>
-              </div>
-            </div>
-            <div>
-              <div class="mid-holder">
-                <a href="/categories/diary" class="item">
-                  <img class='hero' src="images/diary/diary.jpg">
-                </a>
-              </div>
-            </div>
-            <div>
-              <div class="mid-holder">
-                <a href="/categories/editorial" class="item">
-                  <img class='hero' src="images/editorial/editorial-hero.jpg">
-                </a>
-              </div>
-            </div>
-            <div>
-              <div class="mid-holder">
-                <a href="/categories/rvrnts" class="item">
-                  <img class='hero' src="images/events/events.jpg">
-                </a>
-              </div>
-            </div>
-            <div>
-              <div class="mid-holder">
-                <a href="/categories/food" class="item">
-                  <img class='hero' src="images/food/food.jpg">
-                </a>
-              </div>
-            </div>
-            <div>
-              <div class="mid-holder">
-                <a href="/categories/travel" class="item">
-                  <img class='hero' src="images/travel/travel.jpg">
-                </a>
-              </div>
-            </div>
-            <div>
-              <div class="mid-holder">
-                <a href="/about" class="item">
-                  <img class='hero' src="images/about/about.jpg" alt="">
-                </a>
-              </div>
+</head>
+
+<body>
+  <% include ../partials/header %>
+      <div id="category-page" class="container-fluid">
+        <div class="row">
+          <div class="col-md-12 assets-box">
+            <div class="holder">
+              <a href="/categories/branded" class="item">
+                <img class='hero' src="images/branded/branded-hero.jpg" alt="">
+                <h2 class="caption">Branded</h2>
+              </a>
+              <a href="/categories/diary" class="item">
+                <img class='hero' src="images/diary/diary-hero.jpg">
+                <h2 class="caption">Diary</h2>
+              </a>
+              <a href="/categories/editorial" class="item">
+                <img class='hero' src="images/editorial/editorial-hero.jpg">
+                <h2 class="caption">Editorial</h2>
+              </a>
+              <a href="/categories/events" class="item">
+                <img class='hero' src="images/events/event-hero.jpg">
+                <h2 class="caption">Events</h2>
+              </a>
+              <a href="/categories/food" class="item">
+                <img class='hero' src="images/food/food-hero.jpg">
+                <h2 class="caption">Food</h2>
+              </a>
+              <a href="/categories/travel" class="item">
+                <img class='hero' src="images/travel/travel-hero.jpg">
+                <h2 class="caption">Travel</h2>
+              </a>
+              <a href="/about" class="item">
+                <img class='hero' src="images/about/about.jpg" alt="">
+                <h2 class="caption">About</h2>
+              </a>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.6.8-fix/jquery.nicescroll.min.js"></script>
+</body>
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      $('.your-class').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        centerMode: true,
-        centerPadding: '200px',
-        focusOnSelect: true
-      });
-    });
-  </script>
-
-  </body>
 </html>

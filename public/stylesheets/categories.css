@@ -1,21 +1,23 @@
 body {
-  padding: 0;
 }
 
-h3 {
-  display: inline-block;
-  margin: 0 auto;
-  bottom: 50em !important;
-  font-size: 5em !important;
+.hero {
+  max-width: 100%;
+}
+
+.mid-holder {
+  margin: 10px !important;
+}
+#category-page {
+  margin-top: 2em;
+  height: 100%;
+}
+.slick-prev:before, .slick-next:before {
+  color: black !important;
+}
+
+.title {
+  text-align: center;
   font-family: 'Archivo Black', sans-serif;
-}
-
-.full-screen {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.carousel-caption{
-  bottom: 40% !important;
+  margin-bottom: 2em;
 }

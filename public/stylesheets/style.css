@@ -1,5 +1,10 @@
+@font-face {
+    font-family: 'ArcaMajora3';
+    src: url('fonts/ArcaMajora3/ArcaMajora3-Heavy.otf');
+}
+
 body {
-  padding: 50px;
+  padding: 50px 0 50px 0;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -7,24 +12,45 @@ a {
   color: #00B7FF;
 }
 
-.overlay-text {
-  color: white;
-  position: absolute;
-  font-size: 5em;
-  top: 4em;
-  left: 0;
-  right: 2.4em;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100px;
-  text-align: center;
-  font-family: 'Archivo Black', sans-serif;
+#brand {
+  font-family: 'ArcaMajora3';
+  font-size: 2em;
+}
+
+#fake-brand {
+  font-family: 'ArcaMajora3';
+  font-size: 2em;
+  color: #fff;
+  margin-right: 8em;
 }
 
 nav {
+  background-color: #fff;
   box-shadow: 0 1px 2px rgba(0,0,0,0.16);
+  text-align: center;
 }
 
 nav a {
   color: black
+}
+
+#header-container {
+  text-align: center;
+}
+
+.social {
+  margin-top: 5px;
+}
+
+.social-link {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+
+a:hover{
+  background-color: transparent !important;
+}
+
+.footer {
+  text-align: right;
 }
